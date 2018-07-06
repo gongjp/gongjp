@@ -2,11 +2,9 @@ package com.sto.test;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.collections.CollectionUtils;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Arrays;
-import java.util.List;
 
 @SpringBootApplication
 public class MyTestClass {
@@ -47,7 +45,6 @@ public class MyTestClass {
     public void setAge(Integer age) {
         this.age = age;
     }
-
 //    public static void main(String[] args) {
 //        SpringApplication.run(MyTestClass.class, args);
 //    }
